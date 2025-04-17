@@ -1,0 +1,1 @@
+export { routerSchemasDir } from './routerSchemasDir';

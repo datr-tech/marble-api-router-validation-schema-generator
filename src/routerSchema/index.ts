@@ -1,0 +1,1 @@
+export { routerSchema } from './routerSchema';

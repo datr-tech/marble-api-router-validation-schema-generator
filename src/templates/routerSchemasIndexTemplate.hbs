@@ -1,0 +1,7 @@
+{{#each routerSchemaMethodNames}}
+  import {{this~}}Json from "./{{~this~}}.json";
+{{/each ~}}
+
+{{#each routerSchemaMethodNames}}
+  export const {{this}} = {{this~}}Json;
+{{/each ~}}

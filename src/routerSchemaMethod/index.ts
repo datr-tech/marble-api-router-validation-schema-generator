@@ -1,0 +1,1 @@
+export { routerSchemaMethod } from './routerSchemaMethod';
