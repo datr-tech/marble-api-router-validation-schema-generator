@@ -1,4 +1,4 @@
-import { routerSchemaMethod } from '@app/routerSchemaMethod';
+import { routerSchemaMethod } from '@app-marble-api-router-validation-schema-generator/routerSchemaMethod';
 
 export const writeRouterSchema = (routerSchemaName, routerSchemaObjs, routerSchemasDirPath) => {
   const routerSchemaObj = routerSchemaObjs[routerSchemaName];

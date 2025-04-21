@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import { schemaFileExtension } from '@app/config';
+import { schemaFileExtension } from '@app-marble-api-router-validation-schema-generator/config';
 import { deriveRouterSchemaMethodName } from './deriveRouterSchemaMethodName';
 import { deriveRouterSchemaMethodPath } from './deriveRouterSchemaMethodPath';
 import { hasRouterSchemaMethod } from './hasRouterSchemaMethod';

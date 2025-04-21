@@ -1,5 +1,5 @@
-import { routerSchema } from '@app/routerSchema';
-import { routerSchemasDir } from '@app/routerSchemasDir';
+import { routerSchema } from '@app-marble-api-router-validation-schema-generator/routerSchema';
+import { routerSchemasDir } from '@app-marble-api-router-validation-schema-generator/routerSchemasDir';
 
 export const writeRouterService = (schemaObjsPerRouterService) => {
   const { schemas, service } = schemaObjsPerRouterService;
