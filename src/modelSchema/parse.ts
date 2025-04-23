@@ -1,4 +1,4 @@
-import { routerMethods } from '@app-marble-api-router-validation-schema-generator/config';
+import { routerMethods } from '@app-marvsg/config';
 import { getAcceptedFieldsPerSchemas } from './getAcceptedFieldsPerSchemas';
 import { getFieldsPerSchemas } from './getFieldsPerSchemas';
 import { getSchemaNames } from './getSchemaNames';
